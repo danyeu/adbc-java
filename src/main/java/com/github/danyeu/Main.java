@@ -5,7 +5,5 @@ public class Main {
         RunADBC.run();
         System.out.println("\n\n###############################\n\n");
         RunJDBC.run();
-        // ADBC 214241
-        // JDBC
     }
 }

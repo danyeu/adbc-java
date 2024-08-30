@@ -36,6 +36,7 @@ public class RunADBC {
             String directory = "/home/daniel/IdeaProjects/adbc-java/src/main/resources/queries";
             long startTime = System.currentTimeMillis();
             System.out.println("start time " + startTime);
+
             for (int i = 1; i < 100; i++) {
                 if (i == 4) {
                     continue;

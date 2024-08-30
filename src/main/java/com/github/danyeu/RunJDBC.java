@@ -8,7 +8,6 @@ import java.sql.*;
 public class RunJDBC {
 
     public static void run() {
-        // Connection details
         String url = "jdbc:postgresql://localhost:5433/tpcds";
         String user = "admin";
         String password = "password";
@@ -16,7 +15,6 @@ public class RunJDBC {
         try {
             Class.forName("org.postgresql.Driver");
 
-            // Establish the connection
             Connection connection = DriverManager.getConnection(url, user, password);
             Statement stmt = connection.createStatement();
 
